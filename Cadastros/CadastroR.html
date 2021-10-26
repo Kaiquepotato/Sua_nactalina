@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="CadastroR.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+</head>
+
+<body>
+
+    <div class="div-principal">
+
+        <h1>Seja bem vindo(a), aqui você conseguirá fazer o seu Cadastro</h1>
+
+        <div class="Coluna">
+
+            <div class="Linha1">
+                <label class="NomeL">Digite seu nome: </label> <br>
+                <input type="text" class="NomeI" placeholder="Ex: Maria">
+            </div>
+
+            <div class="Linha2">
+                <label class="SobrenomeL">Digite seu Sobrenome</label> <br>
+                <input class="SobrenomeI" placeholder="Francisca">
+            </div>
+
+            <div class="Linha3">
+                <label class="CPFL">Digite seu CPF:</label> <br>
+                <input class="CPFI" placeholder="000.000.000-01" oninput="cpf(this)">
+            </div>
+
+            <div class="Linha4">
+                <label class="ClassL">Seu nível de Escolaridade:</label> <br>
+                <select class="Sele">
+                    <option value="">Todos</option>
+                    <option value="1">Somente Ensino Médio Completo</option>
+                    <option value="2">Esino Superior em andamento</option>
+                    <option value="3">Ensino Superior Completo</option>
+                </select>
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <div class="Coluna2">
+
+            <div class="Linha21">
+                <label class="SenhaL">Crie sua Senha</label> <br>
+                <input type="password" class="SenhaI" placeholder="Senha"> 
+                <br>
+                <br>
+                <label class="ConfL">Confirme sua Senha</label> <br>
+                <input type="password"  class="ConfS" placeholder="Confirmar Senha">
+            </div>
+
+        </div>
+
+        <button class="bota" type="button" onclick="window.open('D:/Desktop/Summit%20-%20Unidade%20de%20Sa%C3%BAde/Teste/Teste/login/login.html')">Confirmar</button>
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    function cpf(i) {
+
+var v = i.value;
+
+if (isNaN(v[v.length - 1])) {
+    i.value = v.substring(0, v.length - 1);
+    return;
+}
+
+i.setAttribute("maxlength", "14");
+if (v.length == 3) i.value += ".";
+if (v.length == 7) i.value += ".";
+if (v.length == 11) i.value += "-";
+
+}
+</script>

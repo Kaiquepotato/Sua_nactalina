@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="CadastroP.css">
+    <script src="script.js"></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+   <div class="div-principal">
+
+        <h1 class="Titulo">Faça Cadastro em nosso site, para que possamos lhe ajudar.</h1>
+
+        <div class="ColunaN">
+            <div class="Colunao">
+                <div class="NomeC">
+                    <label class="Nome">Digite seu nome:</label> <br>
+                    <input type="text" class="NomeI" placeholder="Ex: Franzchiesco Virgolini">
+                </div>
+                <div class="cpfC">
+                    <label class="cpfL">Digite seu cpf:</label> <br>
+                    <input type="text" class="cpfI" oninput="cpf(this)">
+                </div>
+            </div>
+
+            <br> <br> <br>
+            
+            <div class="SenhaC">
+                <label class="Senha">Digite uma senha:</label> <br>
+                <input type="password" class="SenhaI" placeholder="Faça sua Senha">
+                <br><br>
+                <input type="password" class="ConfirmeS" placeholder="Confirme sua senha">
+            </div>
+
+           
+
+            
+        </div>
+       
+        <div class="botaoC">
+            <button type="button" class="button" onclick="window.open('D:/Desktop/Summit%20-%20Unidade%20de%20Saúde/Logins/login.html')">Confirmar</button> <br>
+        </div>
+
+   </div>
+
+</body>
+
+</html>
+
+<script>
+    function cpf(i) {
+
+var v = i.value;
+
+if (isNaN(v[v.length - 1])) {
+    i.value = v.substring(0, v.length - 1);
+    return;
+}
+
+i.setAttribute("maxlength", "14");
+if (v.length == 3) i.value += ".";
+if (v.length == 7) i.value += ".";
+if (v.length == 11) i.value += "-";
+}
+</script>

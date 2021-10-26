@@ -1,0 +1,97 @@
+body {
+    background-color: #3B69DB;
+}
+
+.Titulo {
+    text-align: center;
+}
+
+.ColunaN {
+    min-height: 80vh; 
+    width: 100%;
+    
+}
+
+.Nomes {
+    margin-left: 50px;
+}
+
+.NomeC {
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+.NomeI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.SenhaC {
+    text-align: center;  
+}
+
+.Senha {
+    font-size: 20px;
+}
+
+.SenhaI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ConfirmeS {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cpfC {
+    margin-left: 150px;
+}
+
+.cpfL {
+    font-size: 20px;
+}
+
+.cpfI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.botaoC {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #DBAD3B;
+    border-radius: 15px;
+}
+
+.Colunao {
+    display: flex;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="Login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>loginM</title>
+</head>
+
+<body>
+    
+
+<h1>Lorem ipsum dolor sit</h1>
+
+<p>Lorem ipsum <a href="#">dolor sit amet</a> consectetur adipisicing elit.</p>
+ 
+
+    <div class="caixa-superior">
+        <div class="titulo-fora">
+            <h1 class="titulo-fora-2">UBS</h1>
+            <h2 class="titulo-fora-3">Unidades de Saúde</h2>
+        </div>
+
+        <div class="DarkD">
+            <p class="LetB">Dark Mode</p>
+            <button type="button" class="buto"><span></span></button>
+        </div>
+    </div>  
+
+    <div class="caixa-principal">
+        <div class="titulos-geral">
+            <div class="titulo-loginM-medico">
+                Tela de login
+            </div>  
+        </div>
+        <div class="container-principal">
+            <div class="slide-controle">
+                <input type="radio" name="slide" id="loginM" checked>
+                <input type="radio" name="slide" id="loginR" checked>
+                <label for="loginM" class="slide loginM">Médico(a)</label>
+                <label for="loginR" class="slide loginR">Recepção</label>
+                <div class="slide-funcao"></div>
+            </div>
+            <div class="container-inputs">
+                <form action="#" class="loginM">
+                    <div class="campo">
+                        <input type="text" placeholder="CRM" required>
+                    </div>
+                    <div class="campo">
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="senha-recu">
+                        <a href="#">Esqueceu sua Senha?</a>
+                    </div>
+                    <div class="campo btn">
+                        <div class="btn-click"></div>
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="loginR-link">
+                        Não tem conta ? <a href="file:///D:/Desktop/Summit%20-%20Unidade%20de%20Sa%C3%BAde/Cadastros/CadastroM.html">Cadastre-se</a>
+                    </div>
+                </form>
+                
+                <form action="#" class="loginR">
+                    <div class="campo">
+                        <input type="text" placeholder="CPF" required oninput="cpf(this)">
+                    </div>
+                    <div class="campo">
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="senha-recu">
+                        <a href="#">Esqueceu sua Senha?</a>
+                    </div>
+                    <div class="campo btn">
+                        <div class="btn-click"></div>
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="loginR-link">
+                        Não tem conta ? <a href="file:///D:/Desktop/Summit%20-%20Unidade%20de%20Sa%C3%BAde/Cadastros/CadastroR.html">Cadastre-se</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        function cpf(i) {
+
+            var v = i.value;
+
+            if (isNaN(v[v.length - 1])) {
+                i.value = v.substring(0, v.length - 1);
+                return;
+            }
+
+            i.setAtrribute("maxlength", "14");
+            if (v.length == 3) i.value += ".";
+            if (v.length == 7) i.value += ".";
+            if (v.length == 11) i.value += "-";
+        }
+
+        const loginMText = document.querySelector(".titulo-geral .loginM");
+        const loginMForm = document.querySelector("form.loginM");
+        const loginMBtn = document.querySelector("label.loginM");
+        const loginRBtn = document.querySelector("label.loginR");
+        loginRBtn.onclick = (() => {
+            loginMForm.style.marginLeft = "-50%";
+            loginMText.style.marginRigth = "-50%";
+        });
+        loginMBtn.onclick = (() => {
+            loginMForm.style.marginLeft = "0%";
+            loginMText.style.marginRigth = "0%";
+        });
+        
+
+    </script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(0deg, rgba(174, 182, 226, 0.2), rgba(174, 182, 226, 0.2)), linear-gradient(0deg, rgba(74, 182, 209, 0.2), rgba(74, 182, 209, 0.2)), linear-gradient(0deg, rgba(85, 218, 236, 0.2), rgba(85, 218, 236, 0.2)), linear-gradient(0deg, rgba(99, 135, 226, 0.2), rgba(99, 135, 226, 0.2)), rgba(58, 96, 192, 0.2);
+}
+
+.Coluna {
+    display: flex;
+}
+
+.Linha1 {
+    font-size: 20px;
+
+}
+
+.NomeL {
+    font-size: 20px;
+}
+
+.NomeI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    border-width: 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Linha2 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.SobrenomeL {
+    font-size: 20px; 
+}
+
+.SobrenomeI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Linha3 {
+    font-size: 20px;
+    margin-left: 40px ;
+}
+
+.CPFL {
+    font-size: 20px;
+}
+
+.CPFI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.Linha4 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.Sele {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.Linha21 {
+    font-size: 20px;
+}
+
+.SenhaI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+.ConfS {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bota {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #d8d8d8;
+    border-color: black;
+    width: 150px;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-left: 600px;
+
+}

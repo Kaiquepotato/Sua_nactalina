@@ -1,0 +1,152 @@
+body {
+    background: linear-gradient(0deg, rgba(174, 182, 226, 0.2), rgba(174, 182, 226, 0.2)), 
+    linear-gradient(0deg, rgba(74, 182, 209, 0.2), rgba(74, 182, 209, 0.2)), 
+    linear-gradient(0deg, rgba(85, 218, 236, 0.2), rgba(85, 218, 236, 0.2)), 
+    linear-gradient(0deg, rgba(99, 135, 226, 0.2), rgba(99, 135, 226, 0.2)), rgba(58, 96, 192, 0.2);
+}
+
+.CaixaCentral { 
+    min-height: 80vh; 
+    width: 100%;
+}
+
+.Titulo {
+    text-align: center;
+    
+}
+
+.Coluna1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+#Username {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.Linha2 {
+    margin-left: 50px;
+}
+
+#CRM {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.Linha3 {
+    margin-left: 50px;
+}
+
+.Situ {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.Linha4 {
+    margin-left: 50px;
+}
+
+#Atuacao { 
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.Coluna2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px; 
+}
+
+#Tele {
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 7px;
+}
+
+#TeleI {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 190px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.Linha21 {
+    margin-left: 40px;
+}
+
+.Teleco {
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 7px;
+}
+
+#TeleCo {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.Linha31 {
+    margin-left: 50px;
+}
+
+#Ema {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 7px;
+    width: 270px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.Botao {
+    text-align: center;
+}
+
+#bota {
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    background-color: #d8d8d8;
+    border-color: black;
+    border-radius: 15px;
+}
