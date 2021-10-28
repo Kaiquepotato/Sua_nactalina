@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="light">
 
 <head>
     <meta charset="UTF-8">
@@ -8,11 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <title>loginMmmm</title>
-    <input id="night-mode" class="lamp" type="checkbox" aria-label="night-mode" />
 </head>
 
 
-<body>
+<body class="light">
     <div class="caixa-superior">
         <div class="titulo-fora">
             <h1 class="titulo-fora-2">UBS</h1>
@@ -21,7 +20,7 @@
 
         <div class="DarkD">
             <p class="LetB">Dark Mode</p>
-            <button type="button" class="buto"><span></span></button>
+            <button type="button" onclick="dark()" class="buto"></button>
         </div>
     </div>  
 
@@ -108,9 +107,22 @@
             loginMForm.style.marginLeft = "0%";
             loginMText.style.marginRigth = "0%";
         });
-        
+        function dark(){
+            let el = document.querySelector('body')
+            let el1 = document.querySelector('html')
+
+
+            el.classList.remove('light')
+            el.classList.add('dark-mode')
+
+            el1.classList.remove('light')
+            el1.classList.add('dark-mode')
+
+            
+        }
 
     </script>
+    
 
 </body>
 

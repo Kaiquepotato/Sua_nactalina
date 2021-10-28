@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body.dark-mode {
+.dark-mode {
   background-color: #212529;
   color: #899095;
 }
@@ -19,7 +19,7 @@ body.dark-mode {
   color: #3cc368;
 }
 
-html,body{
+.light{
   display: grid;
   height: 100%;
   width: 100%;
