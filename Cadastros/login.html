@@ -29,10 +29,18 @@
             <div class="slide-controle">
                 <input type="radio" name="slide" id="loginM" checked>
                 <input type="radio" name="slide" id="loginR">
+
+                <input type="radio" name="slide" id="loginE">
+                <input type="radio" name="slide" id="loginD">
+
                 <label for="loginM" class="slide loginM">Médico(a)</label>
                 <label for="loginR" class="slide loginR">Recepção</label>
-                <div class="slide-funcao"></div>
-            </div>
+
+                <label for="loginE" class="slide loginE">Enfermeiro(a)</label>
+                <label for="loginR" class="slide loginD">Dentista</label>
+                
+            <div class="slide-funcao"></div>
+        </div>
             <div class="container-inputs">
                 <form action="#" class="loginM">
                     <div class="campo">
@@ -49,7 +57,7 @@
                         <input type="submit" value="Login">
                     </div>
                     <div class="loginR-link">
-                        Não tem conta ? <a href="file:///D:/Desktop/Summit%20-%20Unidade%20de%20Sa%C3%BAde/Cadastros/CadastroM.html">Cadastre-se</a>
+                        Não tem conta ? <a href="CadastroM.html">Cadastre-se</a>
                     </div>
                 </form>
                 
@@ -68,7 +76,45 @@
                         <input type="submit" value="Login">
                     </div>
                     <div class="loginR-link">
+                        Não tem conta ? <a href="CadastroR.html">Cadastre-se</a>
+                    </div>
+                </form>
+
+                <form action="#" class="loginE">
+                    <div class="campo">
+                        <input type="text" placeholder="CPF" required oninput="cpf(this)">
+                    </div>
+                    <div class="campo">
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="senha-recu">
+                        <a href="#">Esqueceu sua Senha?</a>
+                    </div>
+                    <div class="campo btn">
+                        <div class="btn-click"></div>
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="loginR-link">
                         Não tem conta ? <a href="file:///D:/Desktop/Summit%20-%20Unidade%20de%20Sa%C3%BAde/Cadastros/CadastroR.html">Cadastre-se</a>
+                    </div>
+                </form>
+                
+                <form>
+                    <div class="campo">
+                        <input type="text" placeholder="CPF" required oninput="cpf(this)">
+                    </div>
+                    <div class="campo">
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="senha-recu">
+                        <a href="#">Esqueceu sua Senha?</a>
+                    </div>
+                    <div class="campo btn">
+                        <div class="btn-click"></div>
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="loginR-link">
+                        Não tem conta ? <a href="CadastroR.html">Cadastre-se</a>
                     </div>
                 </form>
             </div>
