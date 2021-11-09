@@ -3,6 +3,35 @@ body {
     background-size: 400%,200%;
 }
 
-.div-principal {
+.div-up {
     background-color:#ffff;
+    border: 5px solid black;
+    
 }
+
+.div-perfil {
+    margin-top: 60px;
+    text-align: left;
+    border: 1px;
+    border-color: black;
+}
+
+.div-UBS {
+    text-align: center;
+    margin-top: -48px;
+}
+
+.div-loca {
+    text-align: right;
+    margin-right: 275px;
+    margin-top: -44px;
+    font-size: 22px;
+    
+}
+
+.div-op {
+    text-align: right;
+    margin-top: -48px;
+    font-size: 22px;
+}
+
