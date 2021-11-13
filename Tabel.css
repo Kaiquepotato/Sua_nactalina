@@ -8,7 +8,21 @@ img.imagem{
     height: 110px;
     float: left;
     margin-top: -3px;
+}
+
+img.imagem2 {
+    width: 70px;
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: -20px;
+    margin-top: 10px;
     
+}
+
+.NameDr{
+    font-size: 24px;
+    margin-left: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 div.up {
@@ -29,7 +43,6 @@ button.G {
 }
 
 button.C {
-    margin-top: 15px;
     margin-left: 5px;
     background-color: #DCDCDC;
     width: 140px;
@@ -37,18 +50,47 @@ button.C {
     border-radius: 10px;
 }
 
+button.Btn-Click {
+    width: 136px;
+    height: 41px;
+    border-radius: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
 a{
-    color: white;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
 }
 
-div.conteudo{
-    border: 1px solid white;
-    width: 99,5%;
-    height: 900px;
-
+.Filtro {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #dee1eb;
 }
 
-table, th, td {
-    border: 1px solid black;
+#tabel {
+    font-family: Arial, Helvetica, sans-serif;                 /*Fontes da tabela*/
+    border-collapse: collapse;                                 /*Formatação da tabela*/
     width: 100%;
+}
+
+#tabel td, #tabel th {
+    border: 5px solid rgb(124, 174, 189);                     /*Cor permanente entre as tabelas*/
+    padding: 2%;                                                /*Padding das tabelas*/
+}
+
+#tabel tr:nth-child(even){background-color: #c7c7c7;}           /*Cor em contraste com cinza escuro*/
+
+#tabel tr:hover{background-color: rgb(94, 186, 223);}         /*Após passar o cursor sobre a tabela*/
+
+#tabel th {
+    padding-top: 12px;                                          /*Preenchimento de espaço vazio de cima*/
+    padding-bottom: 5px;                                        /*Preenchimento de espaço vazio de baixo === se ficar com dúvidas aumente para 50px*/
+    width: 500px;                                               /*Comprimento da tabela*/
+    text-align: left;                                           /*Sentido de alinhameno dos textos*/
+    background-color: #04AA6D;                                /*Cor de fundo da tabela indicadora*/
+    color: white;                                             /*Cor de texto da tabela indicadora*/
+    font-size: 26px;                                            /*Tamanho dos textos da tabela indicadora*/
 }
