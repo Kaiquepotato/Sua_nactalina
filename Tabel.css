@@ -3,14 +3,14 @@ body{
     margin: 0%;
     
 }
-img.imagem{
+img.imagem{                                   /*Logo do UBS Consultas*/
     width:  220px;
     height: 110px;
     float: left;
     margin-top: -3px;
 }
 
-img.imagem2 {
+img.imagem2 {                                 /*Imagem de perfil da Dra.*/
     width: 70px;
     height: 60px;
     margin-left: 50px;
@@ -19,13 +19,13 @@ img.imagem2 {
     
 }
 
-.NameDr{
+.NameDr{                                           /*Nome da Dra.*/
     font-size: 24px;
     margin-left: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-div.up {
+div.up {                                            /*Caixa Superior da tela (Tudo em Azul fora da Tabela)*/
     color: black;
     background-color: rgb(146, 193, 255);
     padding: 0%;
@@ -35,14 +35,14 @@ div.up {
     height: 80px;
 }
 
-button.G {
+button.G {                                                /*Botão Geral*/
     background-color: transparent;
     width: 140px;
     height: 50px;
     border-radius: 10px;
 }
 
-button.C {
+button.C {                                               /*Botão de Consultas*/
     margin-left: 5px;
     background-color: #DCDCDC;
     width: 140px;
@@ -50,7 +50,7 @@ button.C {
     border-radius: 10px;
 }
 
-button.Btn-Click {
+button.Btn-Click {                                        /*Botão de Enviar Canto Superior Direito*/
     width: 136px;
     height: 41px;
     border-radius: 20px;
@@ -59,12 +59,12 @@ button.Btn-Click {
     margin-right: 10px;
 }
 
-a{
+a{                                                          /*Toda letra de Tag <a> Ex; Filtrar por: --  Dra. Patrícia*/
     color: rgb(0, 0, 0);
     margin-left: 20px;
 }
 
-.Filtro {
+.Filtro {                                                   /*Selecte do Filtro*/
     padding: 8px;
     border-radius: 8px;
     background-color: #dee1eb;
