@@ -57,22 +57,54 @@ body {
   width: 150px;
 }
 
+img.umg {
+    width: 50px;
+}
+
 .D {
     text-align: left;
+}
+
+img.dmg {
+    width: 50px;
 }
 
 .V {
     color: black;
 }
 
+img.vng {
+    width: 50px;
+}
+
 .M {
     color: black;
+}
+
+img.mmg{
+    width: 50px;
 }
 
 .B {
     color: black;
 }
 
+img.bmg{
+    width: 50px;
+}
+
 .K {
     color: black;
+}
+
+img.kmg {
+    width: 50px;
+}
+
+.L {
+    color: black;
+}
+
+img.lmg {
+    width: 50px; 
 }
