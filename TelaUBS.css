@@ -2,78 +2,196 @@ body {
     background: linear-gradient(20deg,#3F6FE8,#2A4A9C);
     background-size: 400%,200%;
 }
+
+/*Campo Superior*/
 div.up {
     background-color:#ffff;
-    border: 5px solid black;
+    border: 1px solid black;
     height: 100px;
-    width: 99%;
+    width: 99,7%;
+    border-radius: 30px 30px 100px 100px;
 }
 
+/*Div do Perfil*/
 .div-perfil {
     margin-top: 0px;
+    margin-left: 28px;
     text-align: left;
 }
 
+/*Imagem de Perfil*/
 img.pmg {
     width: 70px;
-    height: 55px;
+    height: 62px;
     margin-top: 2px;
     margin-left: 3px;
 }
 
+/*Texto do Perfil*/
 .txt-p {
-    margin-top: 8px;
+    margin-top: 0px;
     margin-left: 10px;
 }
 
+/*Div da UBS Conect*/
 .div-UBS {
     text-align: center;
     margin-top: -118px;
+    margin-right: 28px;
 }
 
+/*Imagem*/
 img.hmg {
     width: 80px;
     height: 65px;
 }
 
+/*Texto da Div*/
 .txt-h {
     margin-top: 2px;
 }
 
+/*Div da Localização*/
 .div-loca {
     text-align: right;
-    margin-right: 275px;
+    margin-right: 294px;
     margin-top: -110px;
     font-size: 22px;
 }
 
+/*Imagem da Localização*/
 img.lmg {
     width: 80px;
     height: 65px;
 }
 
+/*Texto*/
 .txt-l {
     margin-top: -3px;
     margin-right: -15px;
     font-size: 22px;
 }
 
+/*Div das opções*/
 .div-op {
     text-align: right;
     margin-top: -48px;
     font-size: 22px;
     margin-top: -115px;
+    margin-right: 42px;
 }
 
+/*Imagem*/
 img.omg {
     width: 80px;
     height: 50px;
     
 }
 
+/*Texto*/
 .txt-o {
     margin-top: 0px;
     margin-right: 5px;
     font-size: 26px;
 }
 
+/*Campo Inferior*/
+div.down {
+    background-color: white;
+    border: 1px solid black;
+}
+
+/*Coluna Superior do Campo Inferior*/
+.page-up {
+    display: flex;
+}
+
+/*Div Clinico Geral*/
+div.cln-g {
+    margin-right: 0px;
+}
+
+/*Botão Clinico geral*/
+.btn-cln-g {
+    width: 120px;
+    height: 80px;
+}
+
+/*Imagem do Botão*/
+img.mmg {
+    width: 80px;
+    height: 48px;
+}
+
+/*Div do Dentista*/
+div.det {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*Botão do Dentista*/
+.btn-det {
+    width: 120px;
+    height: 80px;
+}
+
+/*Imagem do botão*/
+img.dmg {
+    width: 80px;
+    height: 48px;
+}
+
+/*Div do Pediatra*/
+.ped {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*Botão do Pediatra*/
+.btn-ped {
+    width: 120px;
+    height: 80px;
+}
+
+/*Imagem do botão*/
+.pmg {
+    width: 50px;
+    height: 100px;
+    margin-right: 60px;
+}
+
+/*Div da Pré-Natal*/
+.pre-n {
+    margin-left: 0px;
+    margin-right: 0px;                        /*|*/
+}                                             /*|*/
+                                              /*|*/
+/*Botão da pré-natal*/                        /*|*/
+.btn-pre-n {                                  /*|*/
+    width: 120px;                             /*|*/
+    height: 80px;                             /*|*/
+}                                             /*|*/
+                                              /*|*/
+/*Imagem do botão*/                           /*|*/
+.pmg {                                        /*|*/
+    width: 90px;                              /*|*/
+    height: 45px;                             /*|*/
+}                                             /*-*/
+
+/*Div da Ginecologista*/                      /*_*/
+.gin {                                        /*|*/
+    margin-left: 0px;                         /*|*/
+    margin-right: 0px;                        /*|*/
+}                                             /*|*/
+                                              /*|*/
+/*Botão da Ginecologista*/                    /*|*/
+.btn-gin {                                    /*|*/
+    width: 120px;                             /*|*/
+    height: 80px;                             /*|*/
+}                                             /*|*/
+                                              /*|*/
+/*Imagem do botão*/                           /*|*/
+.gmg {                                        /*|*/
+    width: 100px;                             /*|*/
+    height: 60px;                             /*|*/
+}                                             /*-*/
