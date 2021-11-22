@@ -99,6 +99,8 @@ img.omg {
 div.down {
     background-color: white;
     border: 1px solid black;
+    margin-top: 200px;
+    border-radius: 35px 35px 265px 265px;
 }
 
 /*Coluna Superior do Campo Inferior*/
@@ -108,13 +110,16 @@ div.down {
 
 /*Div Clinico Geral*/
 div.cln-g {
+    margin-top: 60px;
     margin-right: 0px;
+    margin-left: 70px;
 }
 
 /*Botão Clinico geral*/
 .btn-cln-g {
     width: 120px;
     height: 80px;
+    border-radius: 21px;
 }
 
 /*Imagem do Botão*/
@@ -125,14 +130,16 @@ img.mmg {
 
 /*Div do Dentista*/
 div.det {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-top: 60px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 /*Botão do Dentista*/
 .btn-det {
     width: 120px;
     height: 80px;
+    border-radius: 21px;
 }
 
 /*Imagem do botão*/
@@ -143,14 +150,16 @@ img.dmg {
 
 /*Div do Pediatra*/
 .ped {
+    margin-top: 60px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 140px;
 }
 
 /*Botão do Pediatra*/
 .btn-ped {
     width: 120px;
     height: 80px;
+    border-radius: 21px;
 }
 
 /*Imagem do botão*/
@@ -162,14 +171,16 @@ img.dmg {
 
 /*Div da Pré-Natal*/
 .pre-n {
+    margin-top: 60px;
     margin-left: 0px;
-    margin-right: 0px;                        /*|*/
+    margin-right: 140px;                        /*|*/
 }                                             /*|*/
                                               /*|*/
 /*Botão da pré-natal*/                        /*|*/
 .btn-pre-n {                                  /*|*/
     width: 120px;                             /*|*/
     height: 80px;                             /*|*/
+    border-radius: 21px;
 }                                             /*|*/
                                               /*|*/
 /*Imagem do botão*/                           /*|*/
@@ -179,7 +190,8 @@ img.dmg {
 }                                             /*-*/
 
 /*Div da Ginecologista*/                      /*_*/
-.gin {                                        /*|*/
+.gin {       
+    margin-top: 60px;                                 /*|*/
     margin-left: 0px;                         /*|*/
     margin-right: 0px;                        /*|*/
 }                                             /*|*/
@@ -188,6 +200,7 @@ img.dmg {
 .btn-gin {                                    /*|*/
     width: 120px;                             /*|*/
     height: 80px;                             /*|*/
+    border-radius: 21px;
 }                                             /*|*/
                                               /*|*/
 /*Imagem do botão*/                           /*|*/
@@ -195,3 +208,94 @@ img.dmg {
     width: 100px;                             /*|*/
     height: 60px;                             /*|*/
 }                                             /*-*/
+
+
+.page-down {
+    display: flex;
+}
+
+.ass {
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 0px;
+}
+
+.btn-ass {
+    width: 120px;
+    height: 80px;
+    border-radius: 21px;
+}
+
+.amg {
+    width: 80px;
+    height: 40px;
+}
+
+.cur {
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.btn-cur {
+    width: 120px;
+    height: 80px;
+    border-radius: 21px;
+}
+
+.cmg {
+    width: 80px;
+    height: 40px;
+}
+
+.enf {
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.btn-enf {
+    width: 120px;
+    height: 80px;
+    border-radius: 21px;
+}
+
+.emg {
+    width: 80px;
+    height: 40px;
+}
+
+.exa {
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.btn-exa {
+    width: 120px;
+    height: 80px;
+    border-radius: 21px;
+}
+
+.exmg {
+    width: 80px;
+    height: 40px;
+}
+
+.vac {
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+}
+
+.btn-vac {
+    width: 120px;
+    height: 80px;
+    border-radius: 21px;
+}
+
+.vmg {
+    width: 80px;
+    height: 40px;
+}
